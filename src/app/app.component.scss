@@ -1,0 +1,41 @@
+.tasks {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 500px;
+  font-family: "Comfortaa", cursive;
+
+  mat-card-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+    mat-card-title {
+      font-size: 30px;
+    }
+  }
+
+  .add-contain {
+    align-items: flex-end;
+    display: flex;
+
+    input {
+      border: 0;
+      border-bottom: 2px solid rgb(7, 67, 179);
+      flex: 1;
+      margin-right: 0.5rem;
+
+      &:focus-visible {
+        outline: none;
+      }
+
+      & + button {
+        width: 100px;
+      }
+    }
+  }
+
+  mat-divider {
+    margin: 2rem 0;
+  }
+}
